@@ -1,0 +1,46 @@
+NOTAS. CLASE 3
+
+TIPO DE DATO
+* int: numero entero
+* float: numero decimal
+* complex: numero complejo
+* str: cadena de caracteres (texto) se declara con comillas simples o dobles
+BOOLEANO: True, False
+* banderas en verdadero o falso
+
+TIPO DE DATOS:
++ COLECCIONES:
+* LISTA (list): puede tener un tipo distinto (booleano, str, int, etc...)
+lista con mismo tipo de elementos (correcto)
+se accede a cada elemento con el indice [indice]
+
+* TUPLAS (tuple): tupla, una vez declarada no se puede cambiar.
+
+* DICCIONARIO (dict): es una coleccion de elementos,
+donde cada uno tiene una clave (key) y un valor (value)
++para agregar un elemento:
+diccionario["clave"] = "valor"
+
+diccionario = {"nombre": "juan", "edad": 21}
+print(diccionario["nombre"]) #Juan
+print(diccionario["edad"]) #21
+
+
+claves = dict.keys()
+print(claves)
+
++para recorrer un dict:
+for clave in dict.keys():
+	print(dict[clave])
+
++otra forma de recorrer:
+for clave,valor in dict.items():
+	print("la clave: {0} tiene el valor {1}".format(clave,valor))
+
+.keys() >> devuelve las claves
+
+* CONJUNTOS: set. no tiene elementos duplucados. se usa { }
+set = {2,4,7}
+print(set)
+puedo construir un set a partir de una lista
+**se recorre con un for

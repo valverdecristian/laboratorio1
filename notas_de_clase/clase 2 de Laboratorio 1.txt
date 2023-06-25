@@ -1,0 +1,58 @@
+estructuras de control
+que son?
+un codigo es una secuencia de intrucciones, que
+por norma general son ejecutadas una tras otra
+de manera SECUENCIAL
+
+En mucas ocaciones no basta, puede ser que
+ciertas instrucciones se tengan que ejecutar si y
+solo si se cumple una determinada CONDICION
+Tambien se puede necesitar REPETIR un
+determinado bloque de codigo mas de una vez.
+
+IF, ELIF, ELSE
+Permiten cambiar el flujo de ejecucion de un
+programa, haciendo que ciertos bloques de
+codigo se eje...
+
+bucle: FOR
+En este tipo de bucle el num de iteraciones de
+una esta definido de antemano, mientras que en un
+while no.
+
+WHILE
+El uso del while permite ejecutar una seccion de
+codigo mientras una condicion determinada
+se cumpla.
+Cuando se deje de cumplir...
+
+Funcion: range (para usar en for)
+El RANGE genera una sentencia de num que
+van desde cero por defecto hasta el num que
+se pasa como parametro menos uno
+
+bucle: BREAK
+La sentencia break nos permite alterar el
+comportamiento de los bucles while y for.
+Permite terminar con la ejecucion del bucle.
+
+bucle: CONTINUE
+La sentencia continue se salta todo el codigo restante
+en la iteracion actual y vuelve al principio en el caso de
+que aun queden iteraciones por completar.
+
+seleccion: MATCH
+La sentencia MATCH permite organizar bloques de
+codigos, de forma que se ejecuten cuando se cumple
+cierta condicion o caso.
+
+match status:
+	case 400:
+		return "error de request"
+	case 404:
+		return "no encontrado"
+	case _:
+		return "algo salio mal"
+
+lista_numeros = list(range(5))
+print (lista_numeros) # [0,1,2,3,4]

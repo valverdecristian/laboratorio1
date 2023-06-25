@@ -1,0 +1,26 @@
+clase 4. 11 de Abril, 2023
+
+lista = [ {diccionario} ]
+
+
+**para crear un diccionario desde 0:
+
+auxiliar_miembro = {}
+auxiliar_miembro["id"] = 300
+auxiliar_miembro["nombre"] = Juan
+auxiliar_miembro["edad"] = 27
+auxiliar_miembro["membresia"] = anual
+
+lista.append(auxiliar_miembro)
+
+
+**como mostrar esta info:
+
+indice_busqueda = 1
+
+print("ID: {0} - nombre: {1} - edad {2} - membresia {3}".format(
+	lista[indice_busqueda]["id"]
+
+**para recorrer la lista:
+for miembro in lista:
+	print(
